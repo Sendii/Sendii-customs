@@ -12,7 +12,7 @@ class Customize{
 
 	public function getData(){
 		// return response($this->model->get());
-		// test
+		// test 2
 	}
 
 	public function storeData($request, $uploadFile=false){
