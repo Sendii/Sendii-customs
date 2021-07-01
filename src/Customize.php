@@ -11,8 +11,8 @@ class Customize{
 	}
 
 	public function getData(){
-		// return response($this->model->get());
-		// test 2
+		return response($this->model->get());
+		// test version
 	}
 
 	public function storeData($request, $uploadFile=false){
