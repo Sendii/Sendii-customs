@@ -11,8 +11,8 @@ class Customize{
 	}
 
 	public function getData(){
-		// test lagii
-		return response($this->model->get());
+		// return response($this->model->get());
+		// test
 	}
 
 	public function storeData($request, $uploadFile=false){
