@@ -11,6 +11,7 @@ class Customize{
 	}
 
 	public function getData(){
+		// test lagi
 		return response($this->model->get());
 	}
 
